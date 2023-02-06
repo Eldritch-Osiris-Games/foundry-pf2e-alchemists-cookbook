@@ -1,0 +1,77 @@
+{
+  "title": "Alchemist's Cookbook",
+  "id": "foundry-pf2e-alchemists-cookbook",
+  "description": "",
+  "authors": [
+    {
+      "name": "Aaron Brandon"
+    },
+    {
+      "name":"Marceline Miller"
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/Eldritch-Osiris-Games/foundry-pf2e-alchemists-cookbook/main/module.json",
+  "download": "https://github.com/Eldritch-Osiris-Games/foundry-pf2e-alchemists-cookbook/archive/refs/heads/main.zip",
+  "url": "https://github.com/Eldritch-Osiris-Games/foundry-pf2e-alchemists-cookbook",
+  "version": "0.9.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10",
+    "maximum": "10"
+  },
+  "esmodules": [
+    "popup.js"
+  ],
+  "packs": [
+    {
+      "label": "Alchemist's Cookbook Items",
+      "type": "Item",
+      "name": "alchemists-cookbook-items",
+      "path": "./packs/alchemists-cookbook-items.db",
+      "system": "pf2e"
+    },
+    {
+      "label": "Alchemist's Cookbook Feats",
+      "type": "Item",
+      "name": "alchemists-cookbook-feats",
+      "path": "./packs/alchemists-cookbook-feats.db",
+      "system": "pf2e"
+    },
+    {
+      "label": "Alchemist's Cookbook Class Features",
+      "type": "Item",
+      "name": "alchemists-cookbook-class-features",
+      "path": "./packs/alchemists-cookbook-class-features.db",
+      "system": "pf2e"
+    },
+    {
+      "label": "Alchemist's Cookbook Effects & Actions",
+      "type": "Item",
+      "name": "alchemists-cookbook-effects-actions",
+      "path": "./packs/alchemists-cookbook-effects-actions.db",
+      "system": "pf2e"
+    },
+    {
+      "label": "Alchemist's Cookbook Familiar Abilities",
+      "type": "Item",
+      "name": "alchemists-cookbook-familiar-abilities",
+      "path": "./packs/alchemists-cookbook-familiar-abilities.db",
+      "system": "pf2e"
+    },
+    {
+      "label": "Alchemist's Cookbook Journals",
+      "type": "JournalEntry",
+      "name": "alchemists-cookbook-journals",
+      "path": "./packs/alchemists-cookbook-journals.db",
+      "system": "pf2e"
+    }
+  ],
+  "relationships": {
+    "systems": {
+        "id": "pf2e",
+        "compatibility": {
+          "minimum": "4.7.0"
+        }
+      }
+  }
+}
